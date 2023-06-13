@@ -1,0 +1,4 @@
+version: '1'
+coffe_machine_1:
+  build: .
+  

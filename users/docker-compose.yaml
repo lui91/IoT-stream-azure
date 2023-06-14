@@ -1,0 +1,6 @@
+version: '1'
+services:
+  user_generator:
+    image: user_generator:latest
+    build: .
+    env_file: .env

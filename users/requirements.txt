@@ -1,0 +1,2 @@
+databricks-sql-connector==2.6.1
+Faker==18.10.1

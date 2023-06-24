@@ -1,4 +1,8 @@
-version: '1'
+version: '2'
 services:
   coffe_machine_1:
+    image: coffee_machine/stream
     build: .
+    env_file:
+      - .env
+    container_name: coffe_machine

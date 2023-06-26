@@ -8,12 +8,12 @@ class EventGenerator:
     Creates a simulated event of the registered coffee machines in the databricks data warehouse. 
     '''
 
-    def __init__(self, number_of_events) -> None:
+    def __init__(self, number_of_events=400) -> None:
         self.generator = Faker()
         self.number_of_events = number_of_events
         self.models = ['low', 'mid', 'high']
         self.event_types = ['Clean', 'Brew']
-        self.status = ['Success', 'Failure']
+        self.status = ['True', 'False']
         self.serial_numbers = fetch_serial_numbers()
 
     def generate_event(self):
@@ -30,9 +30,8 @@ class EventGenerator:
             "serial_number": number,
             "model": model,
             "event_date": str(event_date),
-            "event_type": {
-                event_type: status
-            }
+            "event_type": event_type,
+            "status": status
         }
         return record
 

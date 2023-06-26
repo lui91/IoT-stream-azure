@@ -19,7 +19,7 @@ describe coffee_shop.users;
 
 -- COMMAND ----------
 
-INSERT INTO coffee_shop.users(Name, machine_serial_number, birthdate, loyalty_points,email) VALUES ('Luis Ramirez', 117, DATE'1901-01-20', 2, 'lm@coffee.com')
+INSERT INTO coffee_shop.users(Name, machine_serial_number, birthdate, loyalty_points,email) VALUES ('Luis M Ramirez', 117, DATE'1901-01-20', 2, 'lm@coffee.com')
 
 -- COMMAND ----------
 

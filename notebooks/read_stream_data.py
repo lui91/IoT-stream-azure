@@ -13,10 +13,10 @@
 storage_account = "syntweetsstorage"
 #SP
 # secret
-service_credential = "pkE8Q~DTMP1ocLK.~leloIz5fzqYdHBX2KGasbOd"
+service_credential = ""
 # porperties
-app_id = "4ced5214-f937-4cef-b680-5395a174647c"
-dir_id = "6497bc6d-7e82-48c2-b571-9e9489ce1a4c"
+app_id = ""
+dir_id = ""
 
 # COMMAND ----------
 
